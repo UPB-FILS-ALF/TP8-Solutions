@@ -1,0 +1,69 @@
+{
+  "ast": {
+    "statements": [
+      {
+        "variable": "_s",
+        "value": {
+          "left": {
+            "left": {
+              "value": 1,
+              "id": "value",
+              "type": "int",
+              "line": 1
+            },
+            "right": {
+              "value": 4,
+              "id": "value",
+              "type": "int",
+              "line": 1
+            },
+            "op": "*",
+            "id": "expression",
+            "type": "int",
+            "line": 1
+          },
+          "right": {
+            "value": 2,
+            "id": "value",
+            "type": "int",
+            "line": 1
+          },
+          "op": "-",
+          "id": "expression",
+          "type": "int",
+          "line": 1
+        },
+        "id": "attribution",
+        "line": 1
+      },
+      {
+        "functionName": "_sum",
+        "parameters": [
+          {
+            "value": 1,
+            "id": "value",
+            "type": "int",
+            "line": 2
+          },
+          {
+            "value": "_s",
+            "id": "value",
+            "type": "int",
+            "line": 2
+          }
+        ],
+        "id": "functionCall",
+        "line": 2
+      }
+    ],
+    "id": "statements",
+    "line": 1
+  },
+  "symbolTable": {
+    "symbolTable": {
+      "_s": {
+        "type": "int"
+      }
+    }
+  }
+}

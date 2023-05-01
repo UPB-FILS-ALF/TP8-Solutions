@@ -1,0 +1,3 @@
+int _var1 = _sum(1,2);
+string _var1 = "alf";
+float _var3 = 2.5 + _var4;

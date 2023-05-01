@@ -1,0 +1,4 @@
+int _var1 = _var5;
+string _var2 = "alf";
+float _var3 = 2.5 + 7;
+2-_var3;
