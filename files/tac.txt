@@ -1,4 +1,1 @@
-var0 = 1 * 4
-var1 = var0 - 2
-var2 = var1
-_sum(1, _s)
+_sum1(1, 2, "s")

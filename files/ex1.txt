@@ -1,4 +1,12 @@
-int _var1 = _var5;
-string _var2 = "alf";
-float _var3 = 2.5 + 7;
-2-_var3;
+(4+2)/5-3
+e = (a-2)+(a-5)
+
+Three Address Code :
+t1 = 4 + 2
+t2 = 5 - 3
+t3 = t1 / t2
+
+t1 = a - 2
+t2 = a - 5
+t3 = t1 + t2
+e = t3

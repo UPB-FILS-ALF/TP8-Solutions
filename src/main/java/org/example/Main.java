@@ -49,7 +49,7 @@ public class Main {
         return fileData;
     }
     public static void main(String[] args) throws IOException {
-        String fileData = readFile("files\\ex8.txt");
+        String fileData = readFile("files\\ex6.txt");
 
         // Create Lexer, Parser, ParseTree
         AlfLexer lexer = new AlfLexer(CharStreams.fromString(fileData));

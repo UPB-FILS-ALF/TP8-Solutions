@@ -21,7 +21,6 @@ public class ThreeAddressCode {
             if(((ExpressionNode) node).left != null && ((ExpressionNode) node).right != null ) {
                 writeThreeAddressCode(((ExpressionNode) node).left);
                 writeThreeAddressCode(((ExpressionNode) node).right);
-
                 /** TODO 4:
                  *  Compute the result to be the next variable
                  *  Log the result in T.A.C format

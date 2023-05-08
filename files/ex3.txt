@@ -1,2 +1,19 @@
-string _var1 = "alf";
-123 + _var1;
+function double (nr)
+{
+    return nr*2;
+}
+
+double (7/2);
+
+Three Address Code:
+label start
+
+label double
+param nr
+t1 = nr * 2
+return t1
+
+label start
+t2 = 7 / 2
+param t2
+call double,1
